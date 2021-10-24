@@ -1,8 +1,8 @@
 [submodule "hazard-world"]
-	path = hazard-world
+	path = hazard-world-grid
 	url = git@github.com:michahu/hazard-world.git
 [submodule "safety-gym"]
-	path = safety-gym
+	path = hazard-world-robot
 	url = git@github.com:michahu/safety-gym.git
 [submodule "safety-starter-agents"]
 	path = safety-starter-agents
