@@ -1,0 +1,9 @@
+[submodule "hazard-world"]
+	path = hazard-world
+	url = git@github.com:michahu/hazard-world.git
+[submodule "safety-gym"]
+	path = safety-gym
+	url = git@github.com:michahu/safety-gym.git
+[submodule "safety-starter-agents"]
+	path = safety-starter-agents
+	url = git@github.com:michahu/safety-starter-agents.git
