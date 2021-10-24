@@ -1,8 +1,19 @@
-# SRL-NLC
-Safe Reinforcement Learning with Natural Language Constraints. To clone the code:
+# Safe Reinforcement Learning with Natural Language Constraints
+To clone the code:
 ```
 git clone --recurse-submodules https://github.com/princeton-nlp/SRL-NLC.git
+```
+Next, install submodules within pip.
+```
 cd SRL-NLC
+
+cd hazard-world-grid
+pip install -e .
+
+cd ../hazard-world-robot
+pip install -e .
+
+cd ../safety-starter-agents
 pip install -e .
 ```
 
